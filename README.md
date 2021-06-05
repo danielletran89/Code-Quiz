@@ -1,1 +1,2 @@
 # Code-Quiz
+This is a timed quiz that asks multiple choice questions about code. When you select a correct answer you recieve 10 points. If you select a wrong answer you are deducted 10 seconds from your time.

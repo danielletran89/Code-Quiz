@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css"></link>
+    <title>Code Quiz</title>
+    <link href="./style.css" rel='stylesheet'/>
 </head>
 <body>
-    <script src="./script.js"></script>
+    <section>
+        <div id='welcome-screen'>
+            <h1 id='title'>Coding Quiz Challenge</h1>
+            <p id='blurb'>
+                Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by ten seconds!
+            </p>
+            <button id='start-btn' onclick="start()">Start!</button>
+        </div>
+        <div id='quizPage'>
+            <div id='game' class='hide'>
+                <h1 id='question'></h1>
+                <ul id='options'></ul>
+            <h4>Your score is: <bold id='score'></bold></h4>
+            <h4>Time: <span id="timeLeft">0</span></h4>
+        </div> 
+        </div>
+    </section>
+    <script src="./script.js"></script>    
 </body>
 </html>
